@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/bgburger.jpg");
+    height: 100%;
+    background-position: cover;
+    background-size: cover;
+    
+}
+nav{
+    width: 100%;
+    height: 78px;
+    line-height: 78px;
+    padding: 0px 80px;
+    background-color: #b57a42;
+    position: fixed;
+}
+.logo h1{
+    float: left;
+    font-size: 35px;
+    color: #ffebcd;
+    text-transform: uppercase;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffebcd;
+    font-size: 19px;
+    text-transform: uppercase;
+    padding: 0px 25px;
+}
+nav ul li a:hover{
+color: #9c4507;
+transition: .4s ease-in-out;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to right,#b57a42, #281802);
+    color: #d3bcad;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col-1{
+    flex-basis: 25%;
+    padding: 10px;
+}
+.logo{
+  
+    width: 80px;
+    margin-bottom: 30px;
+
+}
+ul li{
+    list-style: none;
+    margin-bottom: 12;
+}
+ul li a{
+    text-decoration: none;
+    color:#d3bcad
+}
+
+
+*{
+margin: 0; 
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
+/*-----
+html, body{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #d3bcad;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px  rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+}
+
+
+
+  
+
+   

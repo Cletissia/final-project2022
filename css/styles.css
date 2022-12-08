@@ -1,54 +1,132 @@
 *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
 }
-body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/bgburger.jpg");
-    height: 100%;
-    background-position: cover;
-    background-size: cover;
-    
-}
-nav{
+.nav{
     width: 100%;
     height: 78px;
     line-height: 78px;
-    padding: 0px 80px;
-    background-color: #b57a42;
+    padding: 0PX 80px;
+    background-color: #ec6709;
     position: fixed;
 }
 .logo h1{
-    float: left;
-    font-size: 35px;
-    color: #ffebcd;
-    text-transform: uppercase;
+float: left;
+font-size: 35px;
+color: #e7c5a4;
+text-transform: uppercase;
 }
-nav ul{
-    float: right;
+.nav ul{
+    float:right;
 }
-nav ul li{
+.nav ul li{
     list-style: none;
     display: inline-block;
 }
-nav ul li a{
+.nav ul li a{
     text-decoration: none;
-    color: #ffebcd;
-    font-size: 19px;
+    color:  #e7c5a4;
+    padding: 19px;
     text-transform: uppercase;
-    padding: 0px 25px;
+    padding: 0px 25px
 }
-nav ul li a:hover{
-color: #9c4507;
-transition: .4s ease-in-out;
+.nav ul li a:hover{
+    background-color: #764610;
+    transition: 0.5 ease;
+}
+.img{
+    width: 100%;
+    height; auto
 }
 
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gallery-section{
+    max-width: 100%;
+}
+.gallery-section .gallery-wrap{
+    padding-top: 10px;
+}
+.gallery-section .gallery-wrap .gallery-images{
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: grid
+    columns :4, 1fr;
+    grid-gap: 20px;
+}
+.gallery-section .gallery-wrap .gallery-images .gallery{
+    max-width: 100%;
+    position: relative;
+}
+.gallery-section .gallery-wrap .gallery-images .gallery .image-section{
+    width: 100%;
+}
+.gallery-section .gallery-wrap .gallery-images .gallery .image-section img{
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 5px;
+    display: block;
+}
+.gallery-section .gallery-wrap .gallery-images .gallery .caption{
+    max-width: 100%;
+    height: auto;
+    position: reletive;
+    padding: 0px;
+    top:0;
+    left:0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background: rgba(186, 100, 29, 0.5);
+    color: #dcc0a0;
+    transition: 0.30s;
+}
+.gallery-section .gallery-wrap .gallery-images .gallery .caption:hover{
+    opacity: 2;
+}
+.gallery-section .gallery-wrap .gallery-images .gallery .caption p{
+    font-size: 13px;
+}
+@media screen and (max-width: 992px){
+    .gallery -section .gallet-wrap .gallery-images    
+}
+@media screen and (max-width: 562px){  
+}
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background;
+}
 footer{
     width: 100%;
     position: absolute;
     bottom: 0;
-    background: linear-gradient(to right,#b57a42, #281802);
+    background: linear-gradient(to right,#e97c16, #281802 );
     color: #d3bcad;
     padding: 100px 0 30px;
     border-top-left-radius: 125px;
@@ -61,51 +139,48 @@ footer{
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-between;   
 }
-.col-1{
+
+.col-1 {
     flex-basis: 25%;
     padding: 10px;
 }
-.logo{
-  
-    width: 80px;
-    margin-bottom: 30px;
 
+.logo{
+    width: 80px;
+    margin-bottom:30px;
 }
+
+
+.col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+
 ul li{
     list-style: none;
-    margin-bottom: 12;
+    margin-bottom: 12px;
 }
 ul li a{
     text-decoration: none;
-    color:#d3bcad
-}
-
-
-*{
-margin: 0; 
-padding: 0;
-box-sizing: border-box;
-font-family: Arial, sans-serif;
-}
-/*-----
-html, body{
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    float: left;
-    margin: 0 5px;
-    overflow: hidden;
-    background: #d3bcad;
-    border-radius: 50px;
-    cursor: pointer;
-    box-shadow: 0px 10px 10px  rgba(0,0,0,0.1);
-    transition: all 0.3s ease-out;
+    color: #f6f6f1;
 }
 
 
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
 
    

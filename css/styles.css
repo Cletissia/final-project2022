@@ -1,0 +1,139 @@
+*{
+  margin: 0;
+  padding: 4;
+  box-sizing: border-box;
+}
+
+header, footer {
+  height: 75px;
+  background-color: #e48211;
+  text-align: center;
+  padding: 10px;
+}
+
+
+.topnav a {
+  margin: 10px;
+  color: #480a0a;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  color: rgb(117, 41, 24);
+}
+.topnav a.split {
+  color: white;
+}
+.row {
+  background-color: #f1f1f1;
+  height: 400px;
+  margin: 10px;
+}
+.col {
+  width: 33%;
+  height: 300px;
+  float: left;
+}
+.col-4{
+  width:25%;
+  height: 300px;
+  float: left;
+}
+
+.col-2{
+  width: 50%;
+  height: 300px;
+  float: left;
+}
+.clearfix{
+  clear: both;
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+   height: 100%;
+  width: 100%;
+} 
+
+img:hover {
+  box-shadow: 0 0 2px 1px #ba790080;
+}
+.button{ 
+  color: #e6930e;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*about Page*/
+/*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+h1 {
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px #c6a796, 0 0 25px #884c2c, 0 0 5px #3d1803;
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+  width: 25%;
+  padding: 10px;
+  height: 95px; 
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 950px) {
+  .column {
+    width: 100%;
+  }
+}/*
+/*
+.responsive {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: ;
+}
+
+.flex-container > div {
+  background-color: #edc3c3;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+/*contact Page*/
+
+/*---This Ends my W4B Final Project2022---*
+
+
+
+

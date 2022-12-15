@@ -3,18 +3,15 @@
   padding: 4;
   box-sizing: border-box;
 }
-
 header, footer {
-  height: 75px;
+  height: 65px;
   background-color: #e48211;
   text-align: center;
   padding: 10px;
 }
-
-
 .topnav a {
   margin: 10px;
-  color: #480a0a;
+  color: #140d04;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -26,9 +23,10 @@ header, footer {
   color: white;
 }
 .row {
-  background-color: #f1f1f1;
+  background-color: #cd7110;
   height: 400px;
   margin: 10px;
+  background: -moz-linear-gradient();
 }
 .col {
   width: 33%;
@@ -40,7 +38,6 @@ header, footer {
   height: 300px;
   float: left;
 }
-
 .col-2{
   width: 50%;
   height: 300px;
@@ -56,18 +53,18 @@ img {
    height: 100%;
   width: 100%;
 } 
-
 img:hover {
   box-shadow: 0 0 2px 1px #ba790080;
 }
 .button{ 
-  color: #e6930e;
+  color: #683b04;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 /*about Page*/
@@ -128,12 +125,60 @@ img {
   width: 150px;
 }
 img:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5)
+/*contact*/
+.col-2{
+  width: 50%;
+  height: 300px;
+  float: left;
 }
-/*contact Page*/
+.col-2{
+  width: 50%;
+  height:300;
+  float:center
+}
+.clearfix{
+  clear: both;
+}
+/**/
+*{
+margin: 0; 
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+box-sizing: border-box;
+}
+.body{
+  height: 100%;
+  background-image: linear-gradient(0 0 0 0.7);
+  background-position: center;
+  background: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ form{
+  width: 90%;
+  max-width: 600px;
+ }
+ .input-group{
+  margin-bottom: 30px;
+ }
+ input, textarea{
+  width: 100%;
+  padding: 10px;
+  outline-offset: 0;
+  border: 1px solid #fff;
+  color: #fff;
+  background: transparent;
+  font-size: 15px;
+ }
+ button{
+  padding: 10px 0;  
+ }
 
-/*---This Ends my W4B Final Project2022---*
-
-
-
-
+.clearfix{
+  clear: both;
+}
